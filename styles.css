@@ -129,29 +129,26 @@ input {
     font-size: 1rem;
 }
 
-.formAccountCreate {
+.formAccountCreate,
+.formGoogleSignup {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #579AFF;
-    border-radius: 5px;
-    height: 2rem;
-    margin-bottom: 0.6rem;
     font-size: 0.9rem;
-    color: white;
     font-weight: 700;
+    margin-bottom: 0.6rem;
+    border-radius: 5px;
+}
+
+.formAccountCreate {
+    background-color: #579AFF;
+    height: 2rem; 
+    color: white; 
 }
 
 .formGoogleSignup {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-bottom: 0.6rem;
-    font-size: 0.9rem;
     color: black;
-    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .googleIcon,
@@ -366,7 +363,7 @@ footer {
     font-weight: 700;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .regionsList {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -386,6 +383,7 @@ footer {
             "row21 row22"    auto
             "row31 row32"    auto/
             1fr   1fr;
+        gap: 1rem;
     }
     .copyright {
         grid-area: row1;
@@ -404,7 +402,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     #footer {
         display: block;
     }
