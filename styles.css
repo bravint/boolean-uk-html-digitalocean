@@ -45,6 +45,7 @@ nav {
 #navbar {
     padding: 0.8rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +54,7 @@ nav {
 
 nav ul {
     display: flex; 
+    flex-wrap: wrap;
     align-content: center; 
     gap: 1rem;
 }
@@ -80,6 +82,7 @@ nav ul {
 #hero {
     height: 31.25rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -102,6 +105,7 @@ nav ul {
     justify-content: center;
     align-content: center;
     width: 30%;
+    min-width: 15rem;
     background-color: white;
     border-radius: 5px;
     padding: 1rem;
@@ -190,7 +194,6 @@ h2 {
 /*PARTNERS*/
 
 #partners {
-    flex-direction: column;
     text-align: center;
     gap: 2.5rem;
 }
@@ -346,7 +349,6 @@ footer {
 
 .socialsvg
  {
-    width: 40px;
     height: 40px;
 }
 
@@ -362,4 +364,54 @@ footer {
 .footerHeading {
     color: white;
     font-weight: 700;
+}
+
+@media only screen and (max-width: 1000px) {
+    .regionsList {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    .hero,
+    #hero {
+    height: auto;
+    padding: 2rem;
+    }
+
+    #footer {
+        display: grid;
+        grid-template:
+            "row1  row1"     auto
+            "row21 row22"    auto
+            "row31 row32"    auto/
+            1fr   1fr;
+    }
+    .copyright {
+        grid-area: row1;
+    }
+    .company {
+        grid-area: row21;
+    }
+    .products {
+        grid-area: row22;
+    }
+    .community {
+        grid-area: row31;
+    }
+    .support {
+        grid-area: row32;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #footer {
+        display: block;
+    }
+
+    .partnersList {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
 }
