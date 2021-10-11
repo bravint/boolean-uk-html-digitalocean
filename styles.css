@@ -363,6 +363,8 @@ footer {
     font-weight: 700;
 }
 
+/*RESPONSIVENESS*/
+
 @media only screen and (max-width: 1200px) {
     .regionsList {
         display: grid;
