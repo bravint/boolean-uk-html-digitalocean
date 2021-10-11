@@ -132,7 +132,6 @@ input {
 .formAccountCreate,
 .formGoogleSignup {
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 0.9rem;
     font-weight: 700;
@@ -141,12 +140,14 @@ input {
 }
 
 .formAccountCreate {
+    justify-content: center;
     background-color: #579AFF;
     height: 2rem; 
     color: white; 
 }
 
 .formGoogleSignup {
+    justify-content: space-between;
     color: black;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
