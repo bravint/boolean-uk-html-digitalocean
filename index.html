@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+    <title>Digital Ocean</title>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <div id="navbar" class="content">
+                <div>
+                    <img class="logo" src="assets/svg/digitalocean.svg" alt="logo">
+                </div>           
+                <ul>
+                    <li>Products</li>
+                    <li>Customers</li>
+                    <li>Community</li>
+                    <li>Pricing</li>
+                </ul>
+                <ul>
+                    <li>Docs</li>
+                    <li>Support</li>
+                    <li>Login</li>
+                    <li><span class="signUpButton">Sign Up</span></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div id="hero" class="content">
+                <div class="heading">
+                    <h1>
+                        The simplest cloud platform for developers & teams
+                    </h1>
+                    <h2>
+                        Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, 
+                        whether you're running one virtual machine or ten thousand.
+                    </h2>
+                </div>
+
+                <div class="signUpForm">
+                    <form>
+
+                        <p class="signUpFormHeading">
+                            Deploy your app in seconds.
+                        </p>
+                        <p class="signUpFormSubHeading">
+                            <span class="blue">Get started now.</span>
+                        </p>
+                        <div>    
+                            <input type="email" placeholder="Email" />
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Password" />
+                        </div>
+                        <div class="formAccountCreate">
+                            <p>Create Your Account</p>
+                        </div>
+                        <div class="formGoogleSignup">
+                            <img class="googleIcon" src="assets/svg/google.svg" alt="Google Icon" width="30px">
+                            <p class="formGoogleSignupText">Sign up with Google</p>
+                            <div class="nbsp">&nbsp;</div>
+                        </div>    
+                        <p class="toc">
+                            By signing up you agree to the <a href="toc.html">terms of service</a>.
+                        </p>
+                     
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <article class="partners">
+            <div id="partners" class="content"> 
+                <p class="partnersHeading">
+                    Innovative businesses trust DigitalOcean
+                </p>
+                <div class="partnersList">
+                    <div class="docker">
+                        <img src="assets/svg/docker.svg" alt="social media icon" class="partnerssvg">
+                    </div>
+                    <div class="github">
+                        <img src="assets/svg/github.svg" alt="social media icon" class="partnerssvg">
+                    </div>
+                    <div class="slack">
+                        <img src="assets/svg/slack.svg" alt="social media icon" class="partnerssvg">
+                    </div>
+                    <div class="hashicorp">
+                        <img src="assets/svg/hashicorp.svg" alt="social media icon" class="partnerssvg">
+                    </div>
+                    <div class="splunk">
+                        <img src="assets/svg/splunk.svg" alt="social media icon" class="partnerssvg">
+                    </div>
+                </div>
+                <p class="partnersSubheading">
+                    <span class="blue">View customer stories &#62;</span>
+                </p>
+            </div>
+
+        </article>
+
+        <article class="deploy">
+
+            <div id="deploy" class="content">
+
+                <p class="articleHeading">
+                    Deploy and scale seamlessly
+                </p>
+
+                <p class="articleSubHeading">
+                    Our optimized configuration process saves your team time when running and scaling distibuted applications. AI & machine learning workloads, hosted services client websites, 
+                    or CI/CD environments
+                </p>
+
+                <div class="deployFlex">
+
+                    <div class="deployAside">
+                        <ul>
+                            <li>Deploy</li>
+                            <li>Manage</li>
+                            <li>Secure</li>
+                            <li>Scale</li>
+                            <li>Monitor</li>
+                        </ul>
+                    </div>
+
+                    <div class="deployGrid"> 
+                        <div class="deployGridItem">
+                            <img src="assets/img/cluster-deploy.svg" alt="Cluster deployments">
+                            <p class="itemHeading">
+                                Cluster deployments
+                            </p>
+                            <p class="itemDesc">
+                                Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.
+                            </p>
+                        </div>
+                        <div class="deployGridItem">
+                            <img src="assets/img/optimized-compute.svg" alt="Optimized compute types">
+                            <p class="itemHeading">
+                                Optimized compute types
+                            </p>
+                            <p class="itemDesc">
+                                Get the compute resources you need with standard or Optimised Droplets.
+                            </p>
+                        </div>
+                        <div class="deployGridItem">
+                            <img src="assets/img/one-click.svg" alt="One-click apps">
+                            <p class="itemHeading">
+                                One-click apps
+                            </p>
+                            <p class="itemDesc">
+                                Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.
+                            </p>
+                        </div>
+                        <div class="deployGridItem">
+                            <img src="assets/img/global.svg" alt="Cluster deployments">
+                            <p class="itemHeading">
+                                Global availability
+                            </p>
+                            <p class="itemDesc">
+                                Deploy to any of our data center regions around the world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+        <article class="developers">
+            <div id="developers" class="content">
+                <p class="articleHeading">
+                    Designed for developers
+                </p>
+                <p class="articleSubHeading">
+                    Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
+                </p>
+
+                <img class="largeImg" src="assets/img/screenshot-create-droplet-12336b41.jpg" alt="Screenshot of Control Panel" width="50%">
+            </div>
+        </article>
+
+        <article class="features">
+            <div id="features" class="content">
+                <p class="articleHeading">
+                    The features your business needs
+                </p>
+
+                <div class="featuresGrid"> 
+
+                    <div class="featuresGridItem">
+                        <img src="assets/img/pred-pricing.svg" alt="Optimized compute types">
+                        <p class="itemHeading">
+                            Predictable pricing
+                        </p>
+                        <p class="itemDesc">
+                            Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.
+                        </p>
+                        <a href="pricing.html">Pricing &#62;</a>
+                    </div>
+                
+                    <div class="featuresGridItem">
+                        <img src="assets/img/world-class.svg" alt="One-click apps">
+                        <p class="itemHeading">
+                            World-class service
+                        </p>
+                        <p class="itemDesc">
+                            Free round the-the-clock technical support for all customers. You'll feel the love.
+                        </p>
+                        <a href="support.html">Support &#62;</a>
+                    </div>
+                    
+                    <div class="featuresGridItem">
+                        <img src="assets/img/reliable-platform.svg" alt="Cluster deployments">
+                        <p class="itemHeading">
+                            Reliable platform
+                        </p>
+                        <p class="itemDesc">
+                            More that 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.
+                        </p>
+                        <a href="security.html">Security &#62;</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </article>
+
+        <article class="regions">
+            <div id="regions" class="content">
+
+                <p class="articleHeading">
+                    Service your customers around the world from 12 regions
+                </p>
+
+                <ul class="regionsList">
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            AMS2
+                        </p>
+                        <p class="regionsListLocation">
+                            Amsterdam, Netherlands
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            AMS2
+                        </p>
+                        <p class="regionsListLocation">
+                            Amsterdam, Netherlands
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            AMS3
+                        </p>
+                        <p class="regionsListLocation">
+                            Amsterdam, Netherlands
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            AMS3
+                        </p>
+                        <p class="regionsListLocation">
+                            Amsterdam, Netherlands
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            BLR1
+                        </p>
+                        <p class="regionsListLocation">
+                            Bangalore, India
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            BLR1
+                        </p>
+                        <p class="regionsListLocation">
+                            Bangalore, India
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            FRA1
+                        </p>
+                        <p class="regionsListLocation">
+                            Frankfurt, Germany
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            FRA1
+                        </p>
+                        <p class="regionsListLocation">
+                            Frankfurt, Germany
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            LON1
+                        </p>
+                        <p class="regionsListLocation">
+                            London, UK
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            LON1
+                        </p>
+                        <p class="regionsListLocation">
+                            London, UK
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            NYC1
+                        </p>
+                        <p class="regionsListLocation">
+                            New York, USA
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+
+                    <li class="regionListItem">
+                        <p class="regionsListCode">
+                            NYC1
+                        </p>
+                        <p class="regionsListLocation">
+                            New York, USA
+                        </p>
+                        <p class="regionsListTest">
+                            Test speed &#62
+                        </p>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </article>
+
+        <article class="reviews">
+            <div id="reviews" class="content">
+                <p class="articleHeading">
+                    Development teams love DigitalOcean
+                </p>
+
+                <img class="largeImg" src="assets/img/rockerbox.png" alt="Rockebox review">
+            </div>    
+        </article>
+
+        <article class="start">
+            <div id="start" class="content">
+                <p class="articleHeading">
+                    Get started now
+                </p>
+                <p class="startButton">
+                    Create your account
+                </p>
+            </div>    
+        </article>
+
+    </main>
+
+    <footer>
+
+        <div id="footer" class="content">
+
+            <div class="copyright">
+                
+                <div>
+                    <img class="smallLogo" src="assets/img/logo-small.svg" alt="small logo">
+                </div>
+
+                <div class="copyrightDesc">
+                    <p>
+                        &#169; DigitalOcean, LLC. All rights reserved <br/> Proudly made in NY
+                    </p>
+                </div>
+
+                <div class="socials">
+                    <div class="twitter">
+                        <a href="https://twitter.com/digitalocean" target="_blank"><img src="assets/svg/twitter-social-icon.svg" alt="social media icon" class="socialsvg"></a>
+                    </div>
+                    <div class="facebook">
+                        <a href="https://www.facebook.com/DigitalOceanCloudHosting" target="_blank">
+                            <img src="assets/svg/facebook-social-icon.svg" alt="social media icon" class="socialsvg">
+                        </a>
+                    </div>
+                    <div class="instagram">
+                        <a href="https://www.instagram.com/thedigitalocean/" target="_blank">
+                            <img src="assets/svg/instagram-social-icon.svg" alt="social media icon" class="socialsvg">
+                        </a>
+                    </div>
+                    <div class="youtube">
+                        <a href="https://www.youtube.com/user/DigitalOceanVideos" target="_blank">
+                            <img src="assets/svg/youtube-social-icon.svg" alt="social media icon" class="socialsvg">
+                        </a>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/company/digitalocean/" target="_blank">
+                            <img src="assets/svg/linkedin-social-icon.svg" alt="social media icon" class="socialsvg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="company">
+                <div class="list">
+                    <ul>
+                        <li><span class="footerHeading">Company</span></li>
+                        <li>About</li>
+                        <li>Leadership</li>
+                        <li>Link</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>Partner Network</li>
+                        <li>Referral Program</li>
+                        <li>Event</li>
+                        <li>Press</li>
+                        <li>Legal & Security</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="list">
+                    <ul>
+                        <li><span class="footerHeading">Products</span></li>
+                        <li>Droplets</li>
+                        <li>Spaces</li>
+                        <li>Kubernetes</li>
+                        <li>Load Balancers</li>
+                        <li>Block Storage</li>
+                        <li>Tools & Integrations</li>
+                        <li>One-Click Apps</li>
+                        <li>API</li>
+                        <li>Pricing</li>
+                        <li>Documentations</li>
+                        <li>Release Notes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="community">
+                <div class="list">
+                    <ul>
+                        <li><span class="footerHeading">Community</span></li>
+                        <li>Tutorials</li>
+                        <li>Meetups</li>
+                        <li>Q&A</li>
+                        <li>Write for Donations</li>
+                        <li>Droplets for Demos</li>
+                        <li>Hatch</li>
+                        <li>Shop Swag</li>
+                        <li>Research Program</li>
+                        <li>Current Research</li>
+                        <li>Open Course</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="support">
+                <div class="list">
+                    <ul>
+                        <li><span class="footerHeading">Support</span></li>
+                        <li>Contact support</li>
+                        <li>FAQ</li>
+                        <li>Network Status</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
